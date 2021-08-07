@@ -17,7 +17,8 @@ cv.imshow('masked_image ', bitwise_and)
 
 rectangle = cv.rectangle(blank.copy(), (30, 30), (370, 370), (255, -1))
 
-
+# makss which we are applying have to be same size as image
+# in histograms maksikng are very helpful
 cv.imshow('weird shape ', rectangle)
 
 cv.waitKey(0)
